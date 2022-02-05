@@ -81,7 +81,7 @@ button{
 }
 
 button:hover{
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Creating an animation to move the button when the user hovers on it*/
 }
 
 
