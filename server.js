@@ -25,17 +25,17 @@ app.use(express.static('website'));
 // Setup Server
 const port = 3000;
 
-app.get('/all',callBack);
+app.get('/all',callBack); // making a get method to respond with the projectData whenever making a request to it in the client-side code (app.js)
 
 function callBack(request,response){
     response.send(projectData);
 }
 
-app.listen(port,function(){
+app.listen(port,function(){ // starting the server through the port number specified in the variable at the top
     console.log(`the server is up and running in the port ${port}`);
 });
 
-app.post('/weather',(req,res)=>{
+app.post('/weather',(req,res)=>{ // making a post method take the posted data from the post request and assign it to the project endpoint and then console logging it
     projectData = req.body;
     res.send(projectData);
     console.log(projectData);
