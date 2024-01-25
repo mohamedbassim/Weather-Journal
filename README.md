@@ -36,7 +36,7 @@ with comments all along the code page so you (as a programmer) can easily modify
 
 ## author
 
-The project was done by me `:)` >> mohamedBassimAhmed Hope it will be a good one.
+The project was done by me >> Muhammad Basim Ahmed, Hope it will be a good one.
 
 
 
